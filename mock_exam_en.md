@@ -290,3 +290,72 @@ Continuing with the **"Smart Home Energy Management System"**.
 
 **3. Product Champion:**
 *   A key member of a specific user class who serves as the primary interface between that user community and the Business Analyst. They provide requirements, answer questions, and resolve conflicts for their user class.
+
+---
+
+## Question 7: Requirement Management & Traceability
+
+**Scenario:**
+The project is mid-way through development, but the client keeps changing requirements. The team is lost on which code corresponds to which requirement.
+
+**Requirements:**
+1.  Define **Requirements Traceability Matrix (RTM)** and explain its two main benefits (e.g., for Change Impact Analysis).
+2.  What is the responsibility of the **CCB (Change Control Board)**?
+3.  Draw a **Change Control Process** using Mermaid (e.g., Request -> Evaluate -> Decision -> Implement -> Verify).
+
+### Answer
+
+**1. Traceability Matrix:**
+*   A document (usually a table) that links user requirements to functional requirements, and then to design, code, and test cases.
+*   **Benefits:**
+    1.  **Change Impact Analysis:** Quickly identify which modules need update when a requirement changes.
+    2.  **Coverage Analysis:** Ensure all requirements are implemented and tested (no missing features).
+
+**2. CCB Role:**
+*   A group of stakeholders (Project Manager, BA, Client, Tech Lead) that decides whether to **approve** or **reject** proposed changes based on scope, cost, and feasibility.
+
+**3. Change Control Process:**
+
+```mermaid
+graph LR
+    Req[Change Request] --> Eval[Evaluate Impact]
+    Eval --> Decision{CCB Decision}
+    Decision -- Approve --> Impl[Implement Change]
+    Decision -- Reject --> End((End))
+    Impl --> Verify[Verify & Test]
+    Verify --> Update[Update Docs]
+```
+
+---
+
+## Question 8: Process Improvement & Risk Management
+
+**Scenario:**
+The previous project failed due to "Scope Creep" (uncontrolled expansion of requirements). The team wants to improve the process for the next project.
+
+**Requirements:**
+1.  Use **Root Cause Analysis (Five Whys)** to explain how to find the real reason for a problem (give a brief example).
+2.  Define **Scope Creep** and one method to prevent it.
+3.  Draw a **Risk Management Process** diagram (Identify -> Analyze -> Rank -> Handle -> Monitor).
+
+### Answer
+
+**1. Root Cause Analysis (Five Whys):**
+*   A technique to drill down to the root cause by asking "Why" at least 5 times.
+*   *Example: Project late? -> Why? (Too many changes) -> Why? (Reqs unclear) -> Why? (Users not involved) -> Root Cause: Lack of user engagement.*
+
+**2. Scope Creep:**
+*   **Definition:** The uncontrolled growth of project scope as requirements are added without adjustments to time, cost, or resources.
+*   **Prevention:** Strictly follow the **Change Control Process** (all changes must go through CCB).
+
+**3. Risk Management Process:**
+
+```mermaid
+graph TD
+    ID[Identify Risk] --> Analyze[Analyze (Likelihood x Impact)]
+    Analyze --> Rank[Rank & Prioritize]
+    Rank --> Handle[Handle (Mitigate/Avoid)]
+    Handle --> Monitor[Monitor & Review]
+    Monitor -.-> ID
+```
+
