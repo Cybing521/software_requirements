@@ -1,0 +1,509 @@
+WHERE TO START
+
+PART ONE: START WITH BUSINESS (CH5)
+
+BUSINESS REQUIREMENTS
+Definition of business requirements: 
+• Description of a need that leads to one or more projects to deliver a solution and the desired 
+ultimate business outcomes. 
+• Contents including business objectives, business opportunities, success metrics, and a vision 
+statement.
+• business objectives – what to achieve
+• business opportunities – justification on objectives
+• success metrics – objectives must be measurable 
+• a vision statement – a written document to formally record the commitment
+Steps:
+• Identifying desired business benefits
+• Product vision and project scope
+• Vision -- ultimate product that will achieve the business objectives
+• Scope -- portion of the ultimate product which the current project or development 
+iteration will address
+
+BUSINESS REQUIREMENTS
+Dealing with conflicting business requirements
+• Principles: delivering the maximum business 
+value to the primary stakeholders
+• Example: Business requirements on a Kiosk 
+system. The retailer, the customer and the 
+developer all hope the system will provide 
+them with an advantage over their current 
+way of doing business.
+• Customer may want a simple and 
+therefore quick way of shopping
+• Retailer may want customers to hang on 
+in shops for longer time and buy more
+• Developer may care security more so 
+more time to spend on security check
+• Who is the primary stakeholder?
+
+
+BUSINESS REQUIREMENTS
+Vison and scope document collects business requirements in a 
+single deliverable.
+• The owners who take the responsibility of the document
+• Project exclusive sponsors
+• Funding authorities
+• BA develops the document  
+• Template
+• Contents of the document
+• Way to produce
+• Populate sections when the corresponding 
+information becomes available
+• But not write one after another from the top to the 
+bottom
+
+
+BUSINESS REQUIREMENTS
+Section 1 – business requirement
+• 1.1. Background: Rationale and 
+context for the new product or for 
+changes to be made to an existing 
+one
+• History or situation that led to 
+the decision to build this 
+product
+• Gaps between the current 
+products and the market 
+trends, technological evolution, 
+etc. 
+• 1.2. Business opportunity
+• Profits/benefits the new 
+products could bring in a 
+qualitative way
+• Leading or catching the gaps
+• Feasibility 
+• 1.3. Business objectives
+• Profits/benefits the new 
+products could bring in a 
+quantitative way
+Financial Nonfinancial
+• Capture a market share of X% 
+within Y months.
+• Increase market share in country 
+W from X% to Y% within Z 
+months.
+• Reach a sales volume of X units or 
+revenue of £Y within Z months.
+• Achieve X% return on investment 
+within Y months.
+• Achieve positive cash flow on this 
+product within Y months.
+• Save $X per year currently spent 
+on a high-maintenance legacy 
+system.
+• Reduce monthly support costs 
+from $X to $Y within Z months.
+• Increase gross margin on existing 
+business from X% to Y% within 1 
+year.
+• Achieve a customer satisfaction measure 
+of at least X within Y months of release.
+• Increase transaction-processing 
+productivity by X% and reduce data error 
+rate to no more than Y%.
+• Develop an extensible platform for a family 
+of related products.
+• Develop specific core technology 
+competencies.
+• Be rated as the top product for reliability in 
+published product reviews by a specified 
+date.
+• Comply with specific federal and state 
+regulations.
+• Receive no more than X service calls per 
+unit and Y warranty calls per unit within Z 
+months after shipping.
+• Reduce turnaround time to X hours on Y% 
+of support calls.
+
+BUSINESS REQUIREMENTS
+Section 1 – business requirement (continue)
+• 1.4. Success metrics
+• Indication of whether a project is on 
+track to meet its business objectives. 
+• The metrics can be tracked during 
+testing or shortly after product release
+• It is important to evaluate the success 
+of an individual project even Business 
+objectives cannot normally be 
+measured well after a project is 
+complete. 
+Example: Chemical Tracking System 
+which contains 3 individual projects
+
+CW TASK 5
+• Task 5 is about success metrics:
+• Success metrics, you may have to refine the requirements you have considered to make 
+them more specific and measurable
+• (Note, this part of CW is tricky because you should have business requirements identified 
+first.)
+
+BUSINESS REQUIREMENTS
+Section 1 – business requirement (continue)
+• 1.5. Vision document
+• Long-term purpose and intent (intention) of the product. 
+• Elements
+• For [target customers]
+• Who [further specifying the needs that the target customers request] – customer and needs
+• The [product name] is [specifying the product to develop, such as capabilities, key benefit, 
+compelling reason to buy or use] – product (why)
+• Unlike [existing products], our product [specifying the advantages over the existing ones to 
+justify the need for the new product] – product (features)
+Example: For scientists who need to request containers of chemicals, the Chemical Tracking Systemis an 
+information system that will provide a single point of access to the chemical stockroom and to vendors. The system 
+will store the location of every chemical container within the company, the quantity of material remaining in it, and 
+the complete history of each container’s locations and usage. This system will save the company 25 percent on 
+chemical costs in the first year of use by allowing the company to fully exploit chemicals that are already available 
+within the company, dispose of fewer partially used or expired containers, and use a standard chemical purchasing 
+process. Unlike the current manual ordering processes, our product will generate all reports required to comply 
+with federal and state government regulations that require the reporting of chemical usage, storage, and disposal.
+
+BUSINESS REQUIREMENTS
+Section 1 – business requirement (continue)
+• 1.6 Business risks (and mitigation)
+• Risks are related to key technical break throughs. If they cannot be achieved or satisfied, 
+then the product cannot be delivered. 
+• A contingent plan (Plan B) that explains how the risks will be handled need to be developed 
+before any project starts but may not at requirement stage. 
+• 1.7 Business assumptions and dependencies
+• Conditions and resources that are related to the viability of the project. 
+• Finance – does customer have enough money to support digitalised system?
+• Environment – can the system survive in the current working environment?
+• Society – what neighbours would think/accept?
+• Ethics – would users trust the system?
+• Regulations – would law or government agency allow the system?
+
+
+BUSINESS REQUIREMENTS
+Section 2 – Scope and limitation
+• 2.1 Major features of the software to develop
+• Feature tree
+• 2.2 It is important to define project scope/boundary at the very beginning
+• Scope presentations
+• Context diagram
+• Ecosystem map
+• Event list
+• Scope creed – functionalities expansion leads to complicity and unmanageable situations
+• Timeline of implementation of the features (releases) 
+
+
+BUSINESS REQUIREMENTS
+Section 2 – Scope and limitation (continue) 
+• Feature tree
+• A feature tree is a visual depiction of the 
+product’s features organized in logical 
+groups, hierarchically subdividing each 
+feature into further levels of detail. 
+• The feature tree provides a concise view 
+of all of the features planned for a 
+project, making it an ideal model to show 
+to executives who want a quick glance at 
+the project scope. 
+• A feature tree can show up to three levels 
+of features, commonly called level 1 (L1), 
+level 2 (L2), and level 3 (L3). L2 features 
+are sub-features of L1 features, and L3 
+features are sub-features of L2 features.
+• Example 
+
+
+• Example and exercise
+• CRM system to develop for Luton DSC
+• Build up a feature tree from any 
+     previous or current project you 
+     participated in
+BUSINESS REQUIREMENTS
+
+
+BUSINESS REQUIREMENTS
+Section 2 – Scope and limitation (continue) 
+• Context diagram
+• The scope description establishes the boundary 
+and connections between the system you’re 
+developing and everything else in the universe. 
+The context diagram visually illustrates this 
+boundary.
+• It identifies external entities (also 
+called terminators) outside the system that 
+interface to it in some way, as well as data, 
+control, and material flows between the 
+terminators and the system. 
+• The context diagram is the top level in a data 
+flow diagram developed according to the 
+principles of structured analysis, but it’s a useful 
+model for all projects.
+• Example 
+
+
+CW TASK 6
+• Task 6 is about scope and limitations
+• Tasks in this part:
+• Develop context diagram for your group project. 
+
+BUSINESS REQUIREMENTS
+Section 2 – Scope and limitation 
+(continue) 
+• Ecosystem map
+• An ecosystem map shows all of the 
+systems related to the system of 
+interest that interact with one 
+another and the nature of those 
+interactions.
+• Ecosystem maps differ from 
+context diagrams in that they show 
+other systems that have a 
+relationship with the system you’re 
+working on, including those 
+without direct interfaces.
+• Example
+
+
+BUSINESS REQUIREMENTS
+Section 2 – Scope and limitation (continue) 
+• Event list
+• An event list identifies external 
+events that could trigger certain 
+behaviour in the system. The event 
+list depicts the scope boundary for 
+the system by naming possible 
+business events triggered by users, 
+time-triggered (temporal) events, or 
+signal events received from external 
+components, such as hardware 
+devices. The event list only names 
+the events; the functional 
+requirements that describe how the 
+system responds to the events would 
+be detailed in the SRS by using event-
+response tables.
+• Example
+Exercise: Each group to compare these four “diagrams” 
+with UML. What information in the four diagrams can be 
+represented by which part of use case diagram or other 
+UML diagrams?
+
+BUSINESS REQUIREMENTS
+Section 3 – Business context
+• 3.1 Stakeholders’ profiles
+• Benefits they could have from project such as productivity, waste, cost, automation, ability, 
+useability, business process, etc.
+• Attitudes toward project (participate, contribute, positive, negative, opposite, etc.)
+• Interests, characteristics
+• Constrains such as business rules, regulations, resources, finance, etc.
+• 3.2 Project priorities decided by taking into account of (the balance of) functionalities, quality, 
+schedule, cost and human resources
+• 3.3 Development considerations: the information and activities that are needed to ensure an 
+effective deployment of the solution into its operating environment e.g. 
+• The availability and the commitment of stakeholders
+• Relationship between customers and development team
+• Facilities 
+• ……
+Prioritisation is an optimisation process:
+Min: an objective function
+Subject to: conditions on variables that can 
+be manipulated
+
+PART TWO: USER, USER, USER (CH6)
+
+REMEMBER USERS (CH6)
+User classes
+• What? – Users can be classified into different categories according to 
+• Their access privilege or security levels (such 
+as ordinary user, guest user, administrator)
+• The tasks they perform during their business 
+operations
+• The features they use (relating to feature tree)
+• The frequency with which they use the 
+product
+• Their application domain experience and 
+computer systems expertise
+• The platforms they will be using (desktop PCs, 
+laptop PCs, tablets, smartphones, specialised 
+devices)
+• Their native language
+• Whether they will interact with the system 
+directly or indirectly
+Then, identify the 
+following four user classes:
+
+REMEMBER USERS
+Identify user classes
+• Why user class? – Elicit requirements from important user classes for your project
+• How? -- Collaboration pattern (brainstorming involving as many user classes as possible and then 
+merge those who have the similar needs or access business process in the similar ways)
+• Principle: expand then contract (see the diagram)
+• Implementation -- Study the organization chart (on the next slide) to look for:
+1. Departments that participate in the business 
+process.
+2. Departments that are affected by the business 
+process.
+3. Departments or role names in which either direct 
+or indirect users might be found.
+4. User classes that span multiple departments.
+5. Departments that might have an interface to 
+external stakeholders outside the company.
+
+
+REMEMBER USERS
+• Organisation chart (example of pharmaceutical company that develop and manufacturing drugs). 
+If the software project is about tracking chemicals, then the focus should be on Drug discovery 
+Department.
+• Organization chart analysis reduces the likelihood that you will overlook an important class of 
+users within that organisation.
+
+
+REMEMBER USERS
+Example
+Chemical Tracking System 
+Name Number Description
+Chemists 
+(favoured)
+Approximately 
+1,000 located in 6 
+buildings
+Chemists will request chemicals from vendors and from the chemical stockroom. Each chemist 
+will use the system several times per day, mainly for requesting chemicals and tracking chemical 
+containers into and out of the laboratory. The chemists need to search vendor catalogs for 
+specific chemical structures imported from the tools they use for drawing structures.
+Buyers 5 Buyers in the purchasing department process chemical requests. They place and track orders 
+with external vendors. They know little about chemistry and need simple query facilities to 
+search vendor catalogues. Buyers will not use the system’s container-tracking features. Each 
+buyer will use the system an average of 25 times per day.
+Chemical 
+stockroom staff
+6 technicians, 1 
+supervisor
+The chemical stockroom staff manages an inventory of more than 500,000 chemical containers. 
+They will supply containers from three stockrooms, request new chemicals from vendors, and 
+track the movement of all containers into and out of the stockrooms. They are the only users of 
+the inventory-reporting feature. Because of their high transaction volume, features that are used 
+only by the chemical stockroom staff must be automated and efficient.
+Health and Safety 
+Department staff 
+(favoured)
+1 manager The Health and Safety Department staff will use the system only to generate predefined quarterly 
+reports that comply with federal and state chemical usage and disposal reporting regulations. The 
+Health and Safety Department manager will request changes in the reports periodically as 
+government regulations change. These report changes are of the highest priority, and 
+implementation will be time critical.
+
+REMEMBER USERS
+User persona 
+• A description of a hypothetical, generic and virtual person who serves as a stand-in for a group of 
+users who have similar characteristics and needs
+• help to understand the requirements and to design the user experience to best meet the needs 
+of specific user communities
+• Here’s an example of a persona for the user class “Chemists” of the Chemical Tracking System:
+Fred, 41, has been a chemist at Contoso Pharmaceuticals since he received his PhD 14 years 
+ago. He doesn’t have much patience with computers. Fred usually works on two projects at a 
+time in related chemical areas. His lab contains approximately 300 bottles of chemicals and gas 
+cylinders. On an average day, he’ll need four new chemicals from the stockroom. Two of these 
+will be commercial chemicals in stock, one will need to be ordered, and one will come from the 
+supply of proprietary Contoso chemical samples. On occasion, Fred will need a hazardous 
+chemical that requires special training for safe handling. When he buys a chemical for the first 
+time, Fred wants the material safety data sheet emailed to him automatically. Each year, Fred 
+will synthesize about 20 new proprietary chemicals to go into the stockroom. Fred wants a 
+report of his chemical usage for the previous month to be generated automatically and sent to 
+him by email so that he can monitor his chemical exposure.
+
+REMEMBER USERS
+Connect to user representatives
+• Some typical communication pathways that connect the voice of the user to the ear of the 
+developer
+
+
+REMEMBER USERS
+Product champion (or user representative?)
+• Who? 
+• They are a few key members of our user community to provide the requirements. 
+• Each product champion serves as the primary interface between members of a single user 
+class and the project’s business analyst.
+• Why?  
+• What to do – the next slide.
+
+REMEMBER USERS
+Category Activities
+Planning ▪ Refine the scope and limitations of the product.
+▪ Identify other systems with which to interact.
+▪ Evaluate the impact of the new system on 
+business operations.
+▪ Define a transition path from current 
+applications or manual operations.
+▪ Identify relevant standards and certification 
+requirements.
+Requirements ▪ Collect input on requirements from other 
+users.
+▪ Develop usage scenarios, use cases, and user 
+stories.
+▪ Resolve conflicts between proposed 
+requirements within the user class.
+▪ Define implementation priorities.
+▪ Provide input regarding performance and other 
+quality requirements.
+▪ Evaluate prototypes.
+▪ Work with other decision makers to resolve 
+conflicts among requirements from different 
+stakeholders.
+▪ Provide specialized algorithms.
+Category Activities
+Validation 
+and 
+verification 
+• Review requirements specifications.
+• Define acceptance criteria.
+• Develop user acceptance tests from usage 
+scenarios.
+• Provide test data sets from the business.
+• Perform beta testing or user acceptance testing 
+User aids • Write portions of user documentation and help 
+text.
+• Contribute to training materials or tutorials.
+• Demonstrate the system to peers 
+Change 
+management 
+• Evaluate and prioritize defect corrections and 
+enhancement requests.
+• Dynamically adjust the scope of future releases or 
+iterations.
+• Evaluate the impact of proposed changes on users 
+and business processes.
+• Participate in making change decisions. 
+
+REMEMBER USERS
+• BA’s advice to product champion -- traps to avoid
+• Managers override the decisions that a qualified and duly authorized product champion 
+makes. Perhaps a manager has a new idea at the last minute, or thinks he knows what the 
+users need. This behaviour often results in dissatisfied users and frustrated product 
+champions who feel that management doesn’t trust them.
+• A product champion who forgets that he is representing other customers and presents only 
+his own requirements won’t do a good job. He might be happy with the outcome, but others 
+likely won’t be.
+• A product champion who lacks a clear vision of the new system might defer decisions to the 
+BA. If all of the BA’s ideas are fine with the champion, the champion isn’t providing much 
+help.
+• A senior user might nominate a less experienced user as champion because she doesn’t have 
+time to do the job herself. This can lead to backseat driving from the senior user who still 
+wishes to strongly influence the project’s direction. 
+
+PART THREE: CASE STUDY
+
+CASE STUDY: THE VOICE OF THE USER 
+Jeremy walked into the office of Ruth, the Director of the Drug Discovery Division at Contoso Pharmaceuticals. Ruth had 
+asked the information technology team that supported Contoso’s research department to build a new application to help 
+the research chemists accelerate their exploration for new drugs. Jeremy was assigned as the BA for the project. After 
+introducing himself and discussing the project in broad terms, Jeremy said to Ruth: “I ‘d like to talk with some of your 
+chemists to understand their requirements for the system. Who might be good people to start with?”
+Ruth replied:” I did that same job for five years before I became the division director three years ago. You do not really 
+need to talk to any of my people. I can tell you everything you need to know about this project.” 
+Jeremy was concerned. Scientific knowledge and technology change quickly, so he wasn’t sure if Ruth could adequately 
+represent the current and future needs for users of this complex application. Perhaps there were some internal policies 
+going on that weren’t apparent and there was a good reason for Ruth to create a buffer between Jeremy and the actual 
+users. After some discussion, though, it became clear that Ruth didn’t want any her people involved directly with the 
+project.
+“OK,” Jeremy agreed reluctantly. “ May be I can start by doing some document analysis and bring questions I have to you. 
+Can we set up a series of interviews for the next couple of weeks so I can understand the kinds of things you expect your 
+scientists to be able to do t]with this new system?”
+“Sorry I’m swamped right now,” Ruth told him. “I can give you a couple of hours in about three weeks to clarify things you 
+are unsure about. Just go ahead and start writing the requirements. When we meet, then you can ask me any questions 
+you still have, I hope that will let you get the ball rolling on the project.”
+
